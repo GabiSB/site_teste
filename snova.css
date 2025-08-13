@@ -1,0 +1,81 @@
+body { 
+  font-family: Arial, Helvetica, sans-serif; 
+  background: #000000; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sniva-container {
+  border: 2px solid #06c12b;
+  background-color: #000000;
+  padding: 50px;
+  max-width: 360px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.133);
+  margin: 0;
+}
+
+h2 { 
+  color: #a600ff; 
+
+}
+
+a{
+    color: #06c12b;
+}
+
+a:hover{
+    color: #a600ff;
+    transition: color 0.2s;
+}
+
+label {
+  color: #a600ff;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+}
+
+input, button {
+  background-color: #000000;
+  color: #06c12b;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 2px solid #2f7a3e;
+  box-sizing: border-box;
+}
+
+button { 
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000; 
+  color: #a600ff; 
+  border: 2px solid #06c12b; 
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+  background-color: #a600ff;
+  color: #000000;
+  border-color: #06c12b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label,
+form input {
+  width: 100%;
+}
